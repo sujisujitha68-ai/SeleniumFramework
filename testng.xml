@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Suite">
+    <test name="My Test">
+        <classes>
+           <!-- <class name="Test.Testn"/>  -->
+             <class name="Test.Method"/>
+        </classes>
+    </test>
+</suite>
+
