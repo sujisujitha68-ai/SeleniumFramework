@@ -21,6 +21,7 @@ public class LoginTest extends BaseClass {
         
         System.out.println("git test change");
 
+        System.out.println("new branch added");
         Thread.sleep(3000);
 
         String url = driver.getCurrentUrl();
