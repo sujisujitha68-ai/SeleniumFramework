@@ -19,7 +19,7 @@ public class LoginTest extends BaseClass {
         driver.findElement(By.name("password")).sendKeys("wrongpassword");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         
-        System.out.println("git test change");
+        System.out.println("git test change2");
 
         System.out.println("new branch added");
         Thread.sleep(3000);
