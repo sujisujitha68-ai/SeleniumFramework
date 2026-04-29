@@ -18,6 +18,8 @@ public class LoginTest extends BaseClass {
         driver.findElement(By.name("username")).sendKeys("Admin");
         driver.findElement(By.name("password")).sendKeys("wrongpassword");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
+        
+        System.out.println("git test change");
 
         Thread.sleep(3000);
 
@@ -27,3 +29,4 @@ public class LoginTest extends BaseClass {
         Assert.assertTrue(url.contains("dashboard"));
     }
 }
+
