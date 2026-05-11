@@ -25,7 +25,8 @@ public static void main(String[] args) {
 	WebElement value=driver.findElement(By.xpath("//h1[contains(text(),'This page is displayed')]"));
 	System.out.println(value.getText());
 	driver.switchTo().defaultContent();
-	System.out.println("Done");
+	System.out.println("Done okay");
+	System.out.print("okay");
 	driver.quit();
 			
 }
